@@ -95,19 +95,24 @@ h3{
 }
 
 .btn{
-    position: absolute;
+    /*position: absolute;*/
+    margin-left:43%;
+    width:18%;
+    font-size:20px;
     bottom: 50px;
     right: 225px;
     padding: 6px 12px;
     border-radius: 4px;
     border: 1px solid transparent;
-    font-family: sans-serif;
+    font-family: Arial;
+
 }
 
 .btn-default{
     color: #333;
     background-color: #fff;
     border-color: #ccc;
+
 }
 .btn-default:hover {
   color: #333;
