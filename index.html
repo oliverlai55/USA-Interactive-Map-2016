@@ -17,8 +17,8 @@
 		<div id="vote-bar-wrap">
 			<div class="arrow top"></div>
 			<div class="arrow bottom"></div>
-			<h3 class="red"><span class="voteCount" ng-bind="redStateVotes"></span>Republican</h3>
-			<h3 class="blue">Democrat<span class="voteCount" ng-bind="blueStateVotes"></span></h3>
+			<h3 id="republican" class="red"><span class="voteCount" ng-bind="redStateVotes"></span>Republican</h3>
+			<h3 id="democrat" class="blue">Democrat<span class="voteCount" ng-bind="blueStateVotes"></span></h3>
 			<div id="fullbar">
 				<div id="blue-bar" class="blue bar" ng-style="{'width': blueWidth}"></div>
 				<div id="open-bar" class="open bar" ng-style="{'width': openWidth}"><p id="open-votes" ng-bind="openStateVotes" ng-if="openStateVotes > 9"></p></div>

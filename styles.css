@@ -1,8 +1,20 @@
-
+body{
+    background-color: rgba(201, 219, 255, 0.64);
+}
 #wrapper{
     position: relative;
     width: 750px;
     margin: auto;
+}
+
+#vote-bar-wrap #democrat{
+    background-color: rgba(201, 219, 255, 0) !important;
+    z-index:10000;
+}
+
+#vote-bar-wrap #republican{
+    background-color: rgba(201, 219, 255, 0) !important;
+    z-index:10000;
 }
 
 .red{
@@ -13,13 +25,15 @@
 	fill: #003399;
     background-color: #003399;
 }
+
+
 .open{
 	fill: #c2b280;
     background-color: #c2b280;
 }
 
 #wrapper svg{
-	background-color: white;
+	background-color: rgba(201, 219, 255);
     position: relative;
 } 
 
@@ -65,6 +79,8 @@ td{
     z-index: 1;
     width: 750px;
     font-family: Arial;
+
+
 }
 
 h3{
